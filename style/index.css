@@ -1,22 +1,15 @@
 .content ul {
+    display: flex;
+	justify-content: flex-end;
+	
     font-family: 'Montserrat', sans-serif;
-	font-size: 22px;
-	/* um modo de alinhar os items, é tornar o elemento "pai" flex */
-	display: flex;
-   
+    font-size: 22px;
 }
 
 .content ul li {
+    /* align-content: flex-end;
+	align-items: baseline; */
+	
     list-style-type: none;
-
-	/* fazendo  os elementos filhos se alinharesm conforme desejado.*/
-	/* Qual comando falta para, os elementos se deslocarem para direita? */
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: flex-end;
-	
-	margin: 0 1em;
-	
+    margin: 0 1em;
 }
